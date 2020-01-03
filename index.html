@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0;maximun-scale=1.0;minimum-scale-1.0;user-scalable=no;">
+    <meta name="description " content=" ">
+    <meta name="keywords " content=" ">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phoenix</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <span class="logo"></span>
+        <div class="sun">
+            <img src="https://p0.ifengimg.com/ifengimcp/pic/20190321/8d00e548da809c7819fb_size1_w48_h48.png" alt="">
+        </div>
+        <ul>
+            <li>3℃</li>
+            <li>北京</li>
+        </ul>
+    </header>
+    <hr>
+    <!--导航-->
+    <div class="title-f">
+        <div class="title">
+            <a href="#">资讯</a>
+            <a href="#">资讯</a>
+            <a href="#">资讯</a>
+            <a href="#">资讯</a>
+            <a href="#">资讯</a>
+            <a href="#">资讯</a>
+            <a href="#">资讯</a>
+        </div>
+    </div>
+    <div class="title-s">
+        <div class="title-t">
+            <a href="#">资讯</a>
+            <a href="#">资讯</a>
+            <a href="#">资讯</a>
+            <a href="#">资讯</a>
+            <a href="#">资讯</a>
+            <a href="#">资讯</a>
+            <a href="#">
+                <div class="arrow"></div>
+            </a>
+
+        </div>
+    </div>
+    <!--轮播图-->
+    <div class="swiper-container lunbo">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/yh.jpg" alt="">
+                <div class="jj">澳大利亚悉尼烟花璀璨迎新年</div>
+            </div>
+            <div class="swiper-slide"><img src="images/sd.jpg" alt="">
+                <div class="jj">澳大利亚悉尼烟花璀璨迎新年</div>
+            </div>
+            <div class="swiper-slide"><img src="images/lf.jpg" alt="">
+                <div class="jj">澳大利亚悉尼烟花璀璨迎新年</div>
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination fenshu"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+        <!-- 如果需要滚动条 -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+    <!--今日要闻-->
+    <div class="daynew">
+        <h2>今日要闻</h2>
+    </div>
+    <div class="newjs">
+        <p>直抵人心的声音</p>
+        <span class="zhiding">置顶</span>
+        <span class="yangshi">央视网&nbsp;83评</span>
+    </div>
+    <!--new-->
+    <div class="list fgx">
+        <div class="list-left">
+            
+                <a href="#">中央军委2020年开训动员令</a>
+            
+            <p>新华社 65评  </p>
+        </div>
+        <div class="list-right">
+            <a href="#">
+                <img src="images/xjp.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="list fgx">
+        <div class="list-left">
+            
+                <a href="#">中央军委2020年开训动员令</a>
+            
+            <p>新华社 65评  </p>
+        </div>
+        <div class="list-right">
+            <a href="#">
+                <img src="images/xjp.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="list fgx">
+        <div class="list-left">
+            
+                <a href="#">中央军委2020年开训动员令</a>
+            
+            <p>新华社 65评  </p>
+        </div>
+        <div class="list-right">
+            <a href="#">
+                <img src="images/xjp.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="list fgx">
+        <div class="list-left">
+            
+                <a href="#">中央军委2020年开训动员令</a>
+            
+            <p>新华社 65评  </p>
+        </div>
+        <div class="list-right">
+            <a href="#">
+                <img src="images/xjp.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!--三个图片-->
+    <div class="bananer">
+        <div class="cs">
+            我敢发誓，这酒喝出1500元的口感
+        </div>
+        <div class="spic">
+            <a href="#"><img src="images/xjp.jpg" alt=""></a>
+            <a href="#"><img src="images/xjp.jpg" alt=""></a>
+            <a href="#"><img src="images/xjp.jpg" alt=""></a>
+        </div>
+        <div class="gg">广告</div>
+    </div>
+    <!--固定定位-->
+    <div class="guding">
+        
+            <img src="images/xjp.jpg" alt="">
+        
+        <div class="guding-center">“黑鹰”事故8死5生还，台军公布罹难者与生还者名单</div>
+        <div class="guding-right">打开</div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'fraction',
+            },
+
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // 如果需要滚动条
+            //   scrollbar: {
+            //     el: '.swiper-scrollbar',
+            //   },
+        })        
+    </script>
+</body>
+
+</html>
